@@ -247,15 +247,20 @@
 
 
 
+
+
+
 /*CSS for portfolio.html*/
 #port-body{
 	background-image: url("https://www.bcm-institute.org/wp-content/uploads/2021/09/pngtree-white-background-cartoon-hora-blue-watercolor-background-image_653820.jpg");
-	/*Citation Here*/
+	/*Citation Here
+    pngtree-white-background-cartoon-hora-blue-watercolor-background-image_653820(BCM Institute, 2019)
+    Accesed-2022-08-03
+	*/
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
-	/*background-repeat: no-repeat;
-*/
+	overflow-x: hidden;
 }
 
 .port-ul1 .port-li1{
@@ -272,6 +277,13 @@
 	background-color: transparent;
 	padding: 5px 20px 5px 20px;
 	font-size: 20px;
+	transition-timing-function: ease-in-out;
+	transition-delay: 0.1s;
+}
+
+.port-ul1 .port-li1 .port-anch:hover{
+	background-color: #4cedd4;
+	color: white;
 }
 
 /*.port-div-up is a container*/
@@ -281,30 +293,34 @@
 }
 
 .port-div-hp{
-	margin-left: 30px;
-    /*padding: 40px;*/
+   margin-left: 30px;
    position: relative;
    left: 230px;
 }
 
 .port-hone1{
-	color: red;
+	color: #392df9;
 	font-size: 80px;
 	font-family: Oldtown, fantasy;
+	animation-name: portani-1;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0.01s;
+}
+
+@keyframes portani-1{
+	from{color: skyblue;}
+	to{color: #392df9;}
+	from{font-size: 20px;}
+	to{font-size: 80px;}
 }
 
 .port-p1{
 	font-size: 18px;
-	margin-top: 20px;	
-	/*font-family: Fixed, monospace;*/
-	font-family: Times, serif;
+	margin-top: 5px;	
+	font-family: Fixed, monospace;
 	width: 45%;
 } 
-
-.port-div-img{
-	
-	/*padding: 40px;*/
-}
 
 .port-img1{
 	/*margin-left: 200px;*/
@@ -316,25 +332,23 @@
 /*.port-div-down container*/
 
 .port-div-down{
-	margin: 20px 20px 0px 20px;
+	margin: 50px 20px 0px 20px;
 }
 
 .port-htwo1{
-	font-size: 35px;
+	font-size: 38px;
 	text-align: center;
 	/*font-family: Coronetscript, cursive;*/
 	font-family: Parkavenue, cursive;
+	color: black;
+	letter-spacing: 2px;
 }
 
 .port-skill1{
 	display: inline-flex;
-	margin-top: 30px;
+	margin-top: 50px;
 	position: relative;
 	left: 7%;
-}
-
-.port-skilla{
-
 }
 
 /*Programming heading*/
@@ -342,6 +356,7 @@
 	font-size: 25px;
 	/*font-family: Andale Mono, monospace;;*/
 	font-family: Lucidatypewriter, monospace;
+	text-decoration: underline;
 }
 
 /*Programming paragraph*/
@@ -351,17 +366,16 @@
 	margin-top: 5px;
 	font-size: 20px;
 	font-family: Lucida, sans-serif;
-
-}
-
-.port-skillb{
-
+    background-color: rgba(4, 153, 229, 0.22);
+	border: 1px solid black;
+	padding: 10px;
 }
 
 /*Sports heading*/
 .port-hthree-b{
 	font-size: 25px;
 	font-family: Lucidatypewriter, monospace;
+	text-decoration: underline;
 }
 
 /*Sports Paragraph*/
@@ -371,24 +385,23 @@
 	margin-top: 5px;
 	font-size: 20px;
 	font-family: Lucida, sans-serif;
-
+    background-color: rgba(4, 153, 229, 0.22);
+	border: 1px solid black;
+	padding: 10px;
 }
 
 .port-skill2{
 	display: inline-flex;
-	margin: 30px 0px 30px 0px;
+	margin: 50px 0px 60px 0px;
 	position: relative;
 	left: 7%;
-}
-
-.port-skillc{
-
 }
 
 /*Video Editing heading*/
 .port-hthree-c{
 	font-size: 25px;
 	font-family: Lucidatypewriter, monospace;
+	text-decoration: underline;
 }
 
 /*Video Editing paragraph*/
@@ -398,18 +411,18 @@
 	margin-top: 5px;
 	font-size: 20px;
 	font-family: Lucida, sans-serif;
-
+    background-color: rgba(4, 153, 229, 0.22);
+	border: 1px solid black;
+	padding: 10px;
 }
 
-.port-skill-d{
-	
-}
 
 /*Gaming heading*/
 .port-hthree-d{
 	font-size: 25px;
 	margin-left: 200px;
 	font-family: Lucidatypewriter, monospace;
+	text-decoration: underline;
 }
 
 /*Gaming paragraph*/
@@ -420,4 +433,7 @@
 	margin-top: 5px;
 	font-size: 20px;
 	font-family: Lucida, sans-serif;
+	background-color: rgba(4, 153, 229, 0.22);
+	border: 1px solid black;
+	padding: 10px;
 }
