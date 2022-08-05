@@ -437,3 +437,247 @@
 	border: 1px solid black;
 	padding: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+/*CSS for contact.html*/
+#con-body{
+
+}
+
+#con-header{
+	background-color: #65b9db;
+	padding: 40px;
+
+}
+
+.con-nav1{
+	text-align: center;
+}
+
+.con-nav1 .con-ul1 .con-li1{
+	display: inline-flex;
+	
+
+}
+
+.con-ul1 .con-li1 .con-anch1{
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+    background-color: white;
+    padding: 10px;
+    margin: 0px 55px 0px 55px;
+    border: 1px solid transparent;
+    border-radius: 70px;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in;
+}
+
+.con-ul1 .con-li1 .con-anch1:hover{
+	background-color: #65b9db;
+	color: white;
+}
+
+.con-mid{
+	background-color: #eceff0;
+}
+
+/*Heading and paragraph at top*/
+.con-heading1{
+	margin: 0px 0px 20px 0px;
+    
+}
+
+.con-hthree-1{
+	font-size: 48px;
+	padding: 5px;
+	text-align: center;
+	font-family: Blippo, fantasy;
+	color: #28282c;
+	text-decoration-line: underline;
+}
+
+.con-para1{
+	font-size: 20px;
+	margin: 5px 0px 0px 0px;
+	padding: 5px;
+	width: 1000px;
+    position: relative;
+    left: 250px;
+    font-family: Helvetica Narrow, sans-serif;
+    text-align: center;
+}
+
+
+
+/*Form and my information from here*/
+.con-div-infor{
+	display: inline-flex;
+	flex-direction: row-reverse;
+	margin: 30px 0px 40px 0px;
+}
+
+.con-div-form1{
+	position: relative;
+	left: 73%;
+    padding-left: 20px;
+}
+
+.con-form1{
+	font-size: 20px;
+    font-family: Andale Mono, monospace;
+}
+
+#firname{
+	margin-top: 15px;
+	padding: 0px 120px 25px 0px;
+}
+
+#midname{
+	margin-top: 15px;
+	padding: 0px 120px 25px 0px;
+}
+
+#sirname{
+	margin-top: 15px;
+	padding: 0px 120px 25px 0px;
+}
+
+#mail{
+	margin-top: 15px;
+	padding: 0px 120px 25px 0px;
+}
+
+#call{
+	margin-top: 15px;
+	padding: 0px 120px 25px 0px;
+}
+
+#stay{
+	margin-top: 15px;
+	padding: 0px 120px 25px 0px;
+}
+
+#con-text-area{
+	margin-top: 15px;
+}
+
+#con-click{
+	position: relative;
+	left: 37%;
+	padding: 8px 15px 8px 15px;
+	text-align: center;
+	background-color: #e1d9d9;
+}
+
+
+.con-div-info1{
+	position: relative;
+	left: 37%;
+   
+}
+
+.con-div-mail{
+	margin: 0px 0px 30px 0px;
+	border-bottom: 1px solid black;
+	padding-bottom: 80px;
+    padding-right: 200px;
+}
+
+.con-mail-h2{
+	margin: 0px 0px 25px 0px;
+	font-family: Andale Mono, monospace;
+}
+
+.con-mail-par{
+	font-size: 16px;
+	font-family: Helvetica Narrow, sans-serif;
+}
+
+.con-div-add{
+	margin: 0px 0px 30px 0px;
+	border-bottom: 1px solid black;
+	padding-bottom: 80px;
+	padding-top: 60px;
+}
+
+.con-add-h2{
+	margin: 0px 0px 25px 0px;
+	font-family: Andale Mono, monospace;
+}
+
+.con-add-par{
+	margin: 0px 0px 10px 0px;
+	font-size: 16px;
+	font-family: Helvetica Narrow, sans-serif;
+}
+
+.con-div-ph{
+	margin: 0px 0px 30px 0px;
+	padding-top: 60px;
+}
+
+.con-ph-h2{
+	margin: 0px 0px 25px 0px;
+	font-family: Andale Mono, monospace;
+}
+
+.con-ph-par{
+	margin: 0px 0px 10px 0px;
+	font-size: 16px;
+	font-family: Helvetica Narrow, sans-serif;
+}
+
+
+
+/*Footer links from here*/
+#con-foot{
+	background-color: #65b9db;
+	padding: 20px;
+    height: 50px;
+}
+
+.con-nav2{
+}
+
+.con-nav2 .con-ul2 .con-li2{
+	display: inline-flex;
+	float: right;
+    margin-right: 5px;
+}
+
+.con-ul2 .con-li2 .con-anch2{
+	text-decoration: none;
+	color: black;
+    margin: 20px 20px 0px 5px;
+    font-size: 18px;
+    padding: 5px;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    position: relative;
+    left: 45px;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in;
+}
+
+.con-ul2 .con-li2 .con-anch2:hover{
+	background-color: white;
+}
+
+.con-foot-par{
+	float: right;
+	font-size: 18px;
+	position: relative;
+	right: 345px;
+    bottom: 5px;
+	font-weight: bold;
+	font-family: Helvetica, sans-serif;
+}
