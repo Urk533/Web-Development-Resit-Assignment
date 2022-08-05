@@ -681,3 +681,208 @@
 	font-weight: bold;
 	font-family: Helvetica, sans-serif;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*Css for blog.html form here*/
+#blog-body{
+
+}
+
+#blog-head{
+	padding: 50px;
+	background-color: blue;
+}
+
+.blog-nav1 .blog-ul1 .blog-li1{
+	display: inline-flex;
+	float: right;
+}
+
+.blog-ul1 .blog-li1 .blog-anch1{
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+	background-color: white;
+    font-size: 20px;
+    border: 1px solid black;
+    margin: 0px 10px 0px 10px;
+    position: relative;
+    bottom: 30px;
+    left: 15px;
+}
+
+
+
+/*Css of middle body part*/
+.blog-aside-div{
+	display: inline-flex;
+}
+
+
+/*Aside css part from here*/
+.blog-aside1{
+	background-color: green;
+	padding: 20px 90px 20px 30px;
+}
+
+
+/*Check Top Blogs*/
+.blog-aside-lists1{
+	
+}
+
+.blog-aside-htwo1{
+	
+}
+
+.blog-aside-ul1{
+
+}
+
+.blog-aside-ul1 .blog-aside-li1{
+	/*padding: 0px 90px 0px 0px;*/
+}
+
+.blog-aside-ul1 .blog-aside-li1 .blog-aside-anch1{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+    list-style-type: none;
+    padding: 0px 90px 0px 0px;
+}
+
+
+/*Archives*/
+.blog-aside-htwo2{
+	
+}
+
+.blog-aside-ul2{
+
+}
+
+.blog-aside-ul2 .blog-aside-li2{
+
+}
+
+.blog-aside-ul2 .blog-aside-li2 .blog-aside-anch2{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	/*margin: 0px 0px 0px 40px;*/
+	/*padding: 0px 0px 0px 40px;*/
+	list-style-type: none;
+}
+
+
+/*Categories*/
+.blog-aside-htwo3{
+
+}
+
+.blog-aside-ul3{
+
+}
+
+.blog-aside-ul3 .blog-aside-li3{
+
+}
+
+.blog-aside-ul3 .blog-aside-li3 .blog-aside-anch3{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	/*margin: 0px 0px 0px 10px;
+*/}
+
+
+/*Css of body(webpages explanation) starts from here*/
+.blog-only-div{
+	padding: 20px 30px 20px 30px;
+	background-color: orange;
+}
+
+
+/*Know About Me*/
+.blog-mid-hpar1{
+
+}
+
+.blog-mid-htwo1{
+
+}
+
+.blog-mid-p1{
+	width: 70%;
+	text-align: justify;
+	font-size: 20px;
+}
+
+
+/*Heading of webpages(blogs)*/
+.blog-asign-h1{
+	text-align: center;
+}
+
+
+/*Div of first and second assignment*/
+.blog-fst-scd{
+	display: inline-flex;
+}
+
+
+/*First assignment*/
+.blog-mid-hpar2{
+
+}
+
+.blog-mid-htwo2{
+
+}
+
+.blog-mid-p2{
+	width: 70%;
+ 	text-align: justify;
+	font-size: 20px;
+}
+
+
+/*Second Assignment*/
+.blog-mid-hpar3{
+
+}
+
+.blog-mid-htwo3{
+
+}
+
+.blog-mid-p3{
+	width: 70%;
+ 	text-align: justify;
+	font-size: 20px;
+}
+
+/*Third Assignment*/
+.blog-mid-hpar4{
+
+}
+
+.blog-mid-htwo4{
+
+}
+
+.blog-mid-p4{
+	width: 70%;
+ 	text-align: justify;
+	font-size: 20px;
+}
