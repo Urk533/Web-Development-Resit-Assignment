@@ -10,41 +10,20 @@
 /*Giving color and padding to header of index page*/
 #index-aside{
 	background-color: #aaaab0;
-	/*padding: 287.5px 50px 50px 50px;*/
 	padding: 287.5px 50px 50px 50px;
-
-	/*Below three lines were referenced from w3 schools(side bar code)*/
-	height: 500px;/*cp*/
+	height: 500px;
 	width: 280px;
-	/*width: 170px;*//*cp*/
-	/*position: fixed;*//*cp*/
-	/*top: 237.5px;*
-	/*top: 0px;*/
 	margin-bottom: 163px;
-	/*margin-bottom: -250px*/
-
-
 }
 
 /*Adding different required css properties on navigation bars*/
 .index-nav1 .index-ul1 .top-nav{
-	/*float: right;*/
-	/*padding: 5px 20px;
-*/	/*margin-left:-40px;*/
-	/*margin-top: 30px;*/
 	margin-top: 50px;
 	list-style-type: none;
 	position: relative;
 	bottom: 200px;
-	/*left: 5px;*/
 	left: -35px;
-/*	border: 1px solid black;
-	background-color: whitesmoke;	
-	
-	transition-delay: 0.1s;
-	transition-timing-function: ease-out;*/
 	text-align: center;
-	/*width: 240px;*/
 
 }
 
@@ -54,15 +33,12 @@
 	
 	text-decoration: none;
 	font-size: 25px;
-	/*text-align: center;*/
 	transition-delay: 0.1s;
 	transition-timing-function: ease-out;
 	background-color: whitesmoke;
-	/*padding: 5px 40px 5px 40px;*/
 	padding: 10px 50px 10px 50px;
 	border: 1px solid black;
     margin-left: -40px;
-   /* width: 9px;*/
 
 }
 
@@ -76,9 +52,6 @@
 	padding: 300px 300px 10px 300px;
     position: relative;
 	bottom: 1000.5px;
-	/*height: 200px;*/
-	/*width: 600x;*/
-	/*margin: 100px 0px -700px 270px;*/
 	margin: 100px 0px -1000px 270px;
 }
 
@@ -102,26 +75,11 @@
 	to{font-size: 130px;}
 }
 
-/*.index-hone{
-	color: #0a0678;
-	position: relative;
-	bottom: 290px;
-	left: 0px;
-	font-size: 70px;
-	font-family: "Verdana", sans-serif;
-}
-*/
 .index-para1{
-	/*font-size: 20px;*/
 	font-size: 30px;
 	position: relative;
 	bottom: 220px;
-	/*bottom: 290px;*/
 	left: 0px;
-	/*font-family: FreeMono, monospace;*/
-	/*font-family: Courier, monospace;*/
-	/*font-family: Luminari, fantasy;*/
-	/*font-family: Anadale Mono, monospace;*/
 	font-family: "Verdana", sans-serif;
 	color: #0a0678;
     filter: drop-shadow(-5px 5px 0.1rem darkblue);
@@ -139,25 +97,19 @@
 	font-size: 40px;
 	position: relative;
 	bottom: 150px;
-	/*bottom: 240px;*/
 	left: 0px;
-	/*font-family: Anadale Mono, monospace;*/
-	font-family: Luminari, fantasy;
+	font-family: "Luminari", fantasy;
 	color: #434343;
-	/*transform: translate(0%, 20%);*/ /*Chaldaina transform property*/
-	/*transform: scale(5);*/
 }
 
 .index-para2{
 	font-size: 25px;
 	position: relative;
 	bottom: 130px;
-	/*bottom: 210px;*/
 	left: 0px;
-	font-family:Snell Roundhand, cursive;
+	font-family: "Snell Roundhand", cursive;
 	line-height:38px;
 	background-color: #434343;
-	/*background-color: #8f5555;*/
 	border: 1px solid black;
 	padding: 30px;
 	color: white;
@@ -172,7 +124,6 @@
 	text-decoration: none;
 	position: relative;
 	bottom: 80px;
-	/*bottom: 150px;*/
 	left: 220px;
 	font-size: 28px;
 	border-radius: 50px;
@@ -191,9 +142,6 @@
 	padding: 60px 60px 60px 60px;
 	position: relative;
 	bottom: 0px;
-	/*bottom: 300px;*/
-	/*margin: 20px 20px 20px 20px;*/
-	/*overflow-y: hidden;*/
 	height: 40px;
 
 }
@@ -205,10 +153,7 @@
 	left: 150px;
 	bottom: 10px;
 	text-align: center;
-	/*border: 1px black solid;*/
-	/*padding: 5px 20px;*/
 	margin: 10px;
-	/*background-color: whitesmoke;*/
 	
 }
 
@@ -217,11 +162,8 @@
 	background-color: whitesmoke;
 	text-decoration: none;
 	color: black;
-	/*background-color: whitesmoke;*/
 	font-size: 20px;
-	/*padding: 5px 20px;*/
 	padding: 5px 20px;
-	/*margin: 10px;*/
 	transition-delay: 0.1s;
 	transition-timing-function: ease-out;
 }
@@ -240,6 +182,41 @@
 	font-size: 22px;
 	font-family: fantasy;
 }
+
+
+
+/*Using Media Query for responsive design of index.html*/
+@media only screen and(max-width:600px){ 
+	#index-aside{ 
+		padding: 190px 50px 50px 50px; 
+		height: 300px; 
+		width: 180px; 
+	} 
+
+	#index-footer{ 
+		padding: 60px 60px 60px 30px; 
+	} 
+
+	.index-label1{ 
+		font-size: 24px; 
+	} 
+
+	.index-para2{ 
+		font-size: 15px; 
+		line-height:24px; 
+		padding: 10px; 
+	} 
+
+	.index-hone{ 
+		font-size: 60px; 
+	} 
+
+   .index-para1{ 
+   	font-size: 20px; 
+   } 
+}
+
+
 
 
 
@@ -301,7 +278,7 @@
 .port-hone1{
 	color: #392df9;
 	font-size: 80px;
-	font-family: Oldtown, fantasy;
+	font-family: "Oldtown", fantasy;
 	animation-name: portani-1;
 	animation-duration: 1.5s;
 	animation-timing-function: ease-in-out;
@@ -323,7 +300,6 @@
 } 
 
 .port-img1{
-	/*margin-left: 200px;*/
 	position: relative;
 	right: 300px;
 }
@@ -338,8 +314,7 @@
 .port-htwo1{
 	font-size: 38px;
 	text-align: center;
-	/*font-family: Coronetscript, cursive;*/
-	font-family: Parkavenue, cursive;
+	font-family: "Parkavenue", cursive;
 	color: black;
 	letter-spacing: 2px;
 }
@@ -354,8 +329,7 @@
 /*Programming heading*/
 .port-hthree-a{
 	font-size: 25px;
-	/*font-family: Andale Mono, monospace;;*/
-	font-family: Lucidatypewriter, monospace;
+	font-family: "Lucidatypewriter", monospace;
 	text-decoration: underline;
 }
 
@@ -365,7 +339,7 @@
 	text-align: justify;
 	margin-top: 5px;
 	font-size: 20px;
-	font-family: Lucida, sans-serif;
+	font-family: "Lucida", sans-serif;
     background-color: rgba(4, 153, 229, 0.22);
 	border: 1px solid black;
 	padding: 10px;
@@ -374,7 +348,7 @@
 /*Sports heading*/
 .port-hthree-b{
 	font-size: 25px;
-	font-family: Lucidatypewriter, monospace;
+	font-family: "Lucidatypewriter", monospace;
 	text-decoration: underline;
 }
 
@@ -384,7 +358,7 @@
 	text-align: justify;
 	margin-top: 5px;
 	font-size: 20px;
-	font-family: Lucida, sans-serif;
+	font-family: "Lucida", sans-serif;
     background-color: rgba(4, 153, 229, 0.22);
 	border: 1px solid black;
 	padding: 10px;
@@ -400,7 +374,7 @@
 /*Video Editing heading*/
 .port-hthree-c{
 	font-size: 25px;
-	font-family: Lucidatypewriter, monospace;
+	font-family: "Lucidatypewriter", monospace;
 	text-decoration: underline;
 }
 
@@ -410,7 +384,7 @@
 	text-align: justify;
 	margin-top: 5px;
 	font-size: 20px;
-	font-family: Lucida, sans-serif;
+	font-family: "Lucida", sans-serif;
     background-color: rgba(4, 153, 229, 0.22);
 	border: 1px solid black;
 	padding: 10px;
@@ -421,7 +395,7 @@
 .port-hthree-d{
 	font-size: 25px;
 	margin-left: 200px;
-	font-family: Lucidatypewriter, monospace;
+	font-family: "Lucidatypewriter", monospace;
 	text-decoration: underline;
 }
 
@@ -432,11 +406,86 @@
 	text-align: justify;
 	margin-top: 5px;
 	font-size: 20px;
-	font-family: Lucida, sans-serif;
+	font-family: "Lucida", sans-serif;
 	background-color: rgba(4, 153, 229, 0.22);
 	border: 1px solid black;
 	padding: 10px;
 }
+
+
+
+/*Using media query for responsive design of portfolio.html*/
+
+@media only screen and(max-width:600px){ 
+	.port-hone1{ 
+		font-size: 40px; 
+	} 
+
+	.port-p1{ 
+		font-size: 58px; 
+		width: 25%; 
+	} 
+
+	.port-htwo1{ 
+
+		font-size: 24px; 
+		text-align: center; 
+		letter-spacing: 1px; 
+	} 
+
+	.port-skill1{ 
+		display: block; 
+	} 
+
+	
+	.port-hthree-a{ 
+		font-size: 15px; 
+	} 
+
+	.port-pa{ 
+		width: 40%; 
+		font-size: 10px; 
+		padding: 5px; 
+	} 
+
+	.port-hthree-b{ 
+		font-size: 15px; 
+	} 
+
+	.port-pb{ 
+		width: 40%; 
+		font-size: 10px; 
+		padding: 5px; 
+	} 
+
+	.port-skill2{
+	 display: block; 
+	} 
+
+	.port-hthree-c{
+	 font-size: 15px; 
+	} 
+
+	.port-pc{ 
+		width: 40%; 
+		font-size: 10px; 
+		padding: 5px; 
+	} 
+
+	.port-hthree-d{ 
+		font-size: 13px; 
+	} 
+
+	.port-pd{ 
+		width: 32%; 
+		font-size: 10px; 
+		padding: 50px; 
+	} 
+}
+
+
+
+
 
 
 
@@ -448,9 +497,6 @@
 
 
 /*CSS for contact.html*/
-#con-body{
-
-}
 
 #con-header{
 	background-color: #65b9db;
@@ -464,8 +510,6 @@
 
 .con-nav1 .con-ul1 .con-li1{
 	display: inline-flex;
-	
-
 }
 
 .con-ul1 .con-li1 .con-anch1{
@@ -492,17 +536,27 @@
 
 /*Heading and paragraph at top*/
 .con-heading1{
-	margin: 0px 0px 20px 0px;
-    
+	margin: 0px 60px 20px 60px;
+   border-bottom: 3px solid black;
+   padding-bottom: 40px;
 }
 
 .con-hthree-1{
 	font-size: 48px;
 	padding: 5px;
 	text-align: center;
-	font-family: Blippo, fantasy;
+	font-family: "Blippo", fantasy;
 	color: #28282c;
 	text-decoration-line: underline;
+	animation-name: contact-anim;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0.1s;
+}
+
+@keyframes contact-anim{
+	from{font-size: 10px;}
+	to{font-size: 60px;}
 }
 
 .con-para1{
@@ -511,8 +565,8 @@
 	padding: 5px;
 	width: 1000px;
     position: relative;
-    left: 250px;
-    font-family: Helvetica Narrow, sans-serif;
+    left: 200px;
+    font-family: "Helvetica Narrow", sans-serif;
     text-align: center;
 }
 
@@ -522,7 +576,7 @@
 .con-div-infor{
 	display: inline-flex;
 	flex-direction: row-reverse;
-	margin: 30px 0px 40px 0px;
+	margin: 90px 0px 70px 0px;
 }
 
 .con-div-form1{
@@ -533,7 +587,7 @@
 
 .con-form1{
 	font-size: 20px;
-    font-family: Andale Mono, monospace;
+    font-family: "Andale Mono", monospace;
 }
 
 #firname{
@@ -594,12 +648,12 @@
 
 .con-mail-h2{
 	margin: 0px 0px 25px 0px;
-	font-family: Andale Mono, monospace;
+	font-family: "Andale Mono", monospace;
 }
 
 .con-mail-par{
 	font-size: 16px;
-	font-family: Helvetica Narrow, sans-serif;
+	font-family: "Helvetica Narrow", sans-serif;
 }
 
 .con-div-add{
@@ -611,13 +665,13 @@
 
 .con-add-h2{
 	margin: 0px 0px 25px 0px;
-	font-family: Andale Mono, monospace;
+	font-family: "Andale Mono", monospace;
 }
 
 .con-add-par{
 	margin: 0px 0px 10px 0px;
 	font-size: 16px;
-	font-family: Helvetica Narrow, sans-serif;
+	font-family: "Helvetica Narrow", sans-serif;
 }
 
 .con-div-ph{
@@ -627,13 +681,13 @@
 
 .con-ph-h2{
 	margin: 0px 0px 25px 0px;
-	font-family: Andale Mono, monospace;
+	font-family: "Andale Mono", monospace;
 }
 
 .con-ph-par{
 	margin: 0px 0px 10px 0px;
 	font-size: 16px;
-	font-family: Helvetica Narrow, sans-serif;
+	font-family: "Helvetica Narrow", sans-serif;
 }
 
 
@@ -642,10 +696,7 @@
 #con-foot{
 	background-color: #65b9db;
 	padding: 20px;
-    height: 50px;
-}
-
-.con-nav2{
+    height: 80px;
 }
 
 .con-nav2 .con-ul2 .con-li2{
@@ -680,6 +731,66 @@
     bottom: 5px;
 	font-weight: bold;
 	font-family: Helvetica, sans-serif;
+}
+
+@media only screen and (max-width:600px){
+	#con-header{
+	padding: 20px;
+
+  }
+
+  .con-hthree-1{
+	font-size: 28px;
+	padding: 1px;
+
+  }
+
+.con-para1{
+	font-size: 10px;
+	padding: 1px;
+	width: 500px;
+
+  }
+
+  .con-form1{
+	font-size: 10px;
+  }
+
+  .con-mail-par{
+	font-size: 10px;
+  }
+
+.con-div-add{
+	padding-bottom: 30px;
+	padding-top: 20px;
+  }
+
+.con-add-h2{
+	font-size: 10px
+  }
+
+.con-add-par{
+	font-size: 10px;
+  }
+
+.con-div-ph{
+	font-size: 10px;
+	padding-top: 20px;
+  }
+
+.con-ph-h2{
+	font-size: 10px
+  }
+
+.con-ph-par{
+	font-size: 10px
+  }
+
+  #con-foot{
+	padding: 10px;
+    height: 30px;
+  }
+
 }
 
 
@@ -746,7 +857,7 @@
 /*Check Top Blogs*/
 
 .blog-aside-htwo1{
-	font-family: Lucida, sans-serif;
+	font-family: "Lucida", sans-serif;
 	padding: 0px 0px 15px 0px;
 }
 
@@ -763,7 +874,7 @@
 	text-decoration: none;
 	color: black;
 	font-size: 18px;
-    font-family: Times New Roman, serif;
+    font-family: "Times New Roman", serif;
 }
 
 .blog-aside-ul1 .blog-aside-li1 .blog-aside-anch1:hover{
@@ -774,7 +885,7 @@
 
 /*Archives*/
 .blog-aside-htwo2{
-	font-family: Lucida, sans-serif;
+	font-family: "Lucida", sans-serif;
 	padding: 15px 0px 15px 0px;
 }
 
@@ -792,7 +903,7 @@
 	text-decoration: none;
 	color: black;
 	font-size: 18px;
-    font-family: Times New Roman, serif;
+    font-family: "Times New Roman", serif;
 
 }
 
@@ -804,7 +915,7 @@
 
 /*Categories*/
 .blog-aside-htwo3{
-	font-family: Lucida, sans-serif;
+	font-family: "Lucida", sans-serif;
 	padding: 15px 0px 15px 0px;
 }
 
@@ -822,7 +933,7 @@
 	text-decoration: none;
 	color: black;
 	font-size: 18px;
-	font-family: Times New Roman, serif;
+	font-family: "Times New Roman", serif;
 }
 
 .blog-aside-ul3 .blog-aside-li3 .blog-aside-anch3:hover{
@@ -832,7 +943,7 @@
 
 /*Recents*/
 .blog-aside-htwo4{
-	font-family: Lucida, sans-serif;
+	font-family: "Lucida", sans-serif;
 	padding: 15px 0px 15px 0px;
 }
 
@@ -850,7 +961,7 @@
 	text-decoration: none;
 	color: black;
 	font-size: 18px;
-	font-family: Times New Roman, serif;
+	font-family: "Times New Roman", serif;
 }
 
 .blog-aside-ul4 .blog-aside-li4 .blog-aside-anch4:hover{
@@ -874,7 +985,7 @@
 
 .blog-mid-htwo1{
 	color: whitesmoke;
-	font-family: Lucida, sans-serif;
+	font-family: "Lucida", sans-serif;
 	padding: 0px 0px 8px 0px;
 }
 
@@ -883,7 +994,7 @@
 	width: 70%;
 	text-align: justify;
 	font-size: 20px;
-	font-family: Florence, cursive;
+	font-family: "Florence", cursive;
 	animation-name: blog-par-ani;
 	animation-duration: 1s;
 	animation-timing-function: ease-out;
@@ -898,7 +1009,7 @@
 
 /*Heading of webpages(blogs)*/
 .blog-asign-h1{
-	font-family: Lucida, sans-serif;
+	font-family: "Lucida", sans-serif;
 	text-align: center;
 	padding: 0px 0px 40px 0px;
 	text-decoration: underline;
@@ -935,7 +1046,7 @@
 
 .blog-mid-htwo2{
 	padding: 0px 0px 8px 0px;
-	font-family: Lucida, sans-serif;
+	font-family: "Lucida", sans-serif;
 	color: whitesmoke;
 
 }
@@ -944,7 +1055,7 @@
 	width: 70%;
  	text-align: justify;
 	font-size: 20px;
-	font-family: Florence, cursive;
+	font-family: "Florence", cursive;
 	color: whitesmoke;
 }
 
@@ -952,7 +1063,7 @@
 /*Second webpage*/
 
 .blog-mid-htwo3{
-	font-family: Lucida, sans-serif;
+	font-family: "Lucida", sans-serif;
 	padding: 0px 0px 8px 0px;
 	color: whitesmoke;
 
@@ -962,7 +1073,7 @@
 	width: 70%;
  	text-align: justify;
 	font-size: 20px;
-	font-family: Florence, cursive;
+	font-family: "Florence", cursive;
 	color: whitesmoke;
 }
 
@@ -973,7 +1084,7 @@
 }
 
 .blog-mid-htwo4{
-	font-family: Lucida, sans-serif;
+	font-family: "Lucida", sans-serif;
 	padding: 0px 0px 8px 0px; 
 	color: whitesmoke;
 }
@@ -982,7 +1093,7 @@
 	width: 80%;
  	text-align: justify;
 	font-size: 20px;
-	font-family: Florence, cursive;
+	font-family: "Florence", cursive;
 	color: whitesmoke;
 }
 
@@ -990,7 +1101,7 @@
 /*Footer nav bar css*/
 #blog-foot{
 	background-color: #0d4789f0;
-	padding: 40px 30px 60px 40px;
+	padding: 40px 30px 40px 40px;
 }
 
 .blog-nav2 .blog-ul2 .blog-li2{
@@ -1006,9 +1117,9 @@
     color: whitesmoke;
     position: relative;
     bottom: 4px;
-    font-family: Courier, monospace;
+    font-family: "Courier", monospace;
     font-weight: bold;
-    transition-delay: 0.2;
+    transition-delay: 0.2s;
     transition-timing-function: ease-in-out;
  }
 
@@ -1026,4 +1137,76 @@
    font-family: sans-serif;
    text-decoration: underline;
    color: whitesmoke; 
+}
+
+
+
+
+/*Using media query for responsive design*/
+@media only screen and(max-width:600px){ 
+	#blog-head{ 
+		padding: 40px; 
+	} 
+
+	.blog-mid-hpar1{ 
+		padding: 10px 0px 110px 0px; 
+	} 
+
+	.blog-mid-htwo1{ 
+		font-size: 10px; 
+		padding: 0px 0px 4px 0px; 
+	}
+
+	.blog-mid-p1{ 
+		width: 20%; 
+		font-size: 5px; 
+	} 
+
+	.blog-asign-h1{ 
+		padding: 0px 0px 5px 0px; 
+	} 
+
+	.blog-all-three{ 
+		padding: 5px 0px 5px 0px; 
+	} 
+
+	.blog-fst-scd{ 
+		padding: 0px 0px 30px 0px; 
+	} 
+
+	.blog-mid-htwo2{ 
+		padding: 0px 0px 4px 0px; 
+	} 
+
+	.blog-mid-p2{ 
+		width: 40%; 
+		font-size: 10px 
+	} 
+
+	.blog-mid-htwo3{ 
+		padding: 0px 0px 4px 0px; 
+	} 
+
+	.blog-mid-p3{ 
+		width: 40%; 
+		font-size: 10px 
+	} 
+
+	.blog-mid-hpar4{ 
+		font-size: 10px; 
+	} 
+
+	.blog-mid-htwo4{ 
+		padding: 0px 0px 4px 0px; 
+	} 
+
+	.blog-mid-p4{ 
+		width: 40%; 
+		font-size: 10px;
+	} 
+
+	#blog-foot{ 
+		background-color: #0d4789f0; 
+		padding: 20px 10px 20px 20px; 
+	} 
 }
