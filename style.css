@@ -695,12 +695,12 @@
 
 /*Css for blog.html form here*/
 #blog-body{
-
+	overflow-x: hidden;
 }
 
 #blog-head{
-	padding: 50px;
-	background-color: blue;
+	padding: 70px;
+	background-color: #0d4789f0;
 }
 
 .blog-nav1 .blog-ul1 .blog-li1{
@@ -711,7 +711,7 @@
 .blog-ul1 .blog-li1 .blog-anch1{
 	text-decoration: none;
 	color: black;
-	padding: 5px;
+	padding: 10px;
 	background-color: white;
     font-size: 20px;
     border: 1px solid black;
@@ -719,6 +719,13 @@
     position: relative;
     bottom: 30px;
     left: 15px;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-out;
+}
+
+.blog-ul1 .blog-li1 .blog-anch1:hover{
+	background-color: #3f3f45;
+	color: whitesmoke;
 }
 
 
@@ -731,47 +738,53 @@
 
 /*Aside css part from here*/
 .blog-aside1{
-	background-color: green;
-	padding: 20px 90px 20px 30px;
+	background-color: #eef1ee;
+	padding: 200px 90px 20px 30px;
 }
 
 
 /*Check Top Blogs*/
-.blog-aside-lists1{
-	
-}
 
 .blog-aside-htwo1{
-	
+	font-family: Lucida, sans-serif;
+	padding: 0px 0px 15px 0px;
 }
 
 .blog-aside-ul1{
-
+	border-bottom: 2px solid black;
+	padding: 0px 30px 10px 15px;
 }
 
 .blog-aside-ul1 .blog-aside-li1{
-	/*padding: 0px 90px 0px 0px;*/
+	padding: 0px 0px 5px 0px;
 }
 
 .blog-aside-ul1 .blog-aside-li1 .blog-aside-anch1{
 	text-decoration: none;
 	color: black;
 	font-size: 18px;
-    list-style-type: none;
-    padding: 0px 90px 0px 0px;
+    font-family: Times New Roman, serif;
+}
+
+.blog-aside-ul1 .blog-aside-li1 .blog-aside-anch1:hover{
+	font-size: 20px;
+	border-bottom: 2px solid black;
 }
 
 
 /*Archives*/
 .blog-aside-htwo2{
-	
+	font-family: Lucida, sans-serif;
+	padding: 15px 0px 15px 0px;
 }
 
 .blog-aside-ul2{
-
+	border-bottom: 2px solid black;
+	padding: 0px 30px 10px 15px;
 }
 
 .blog-aside-ul2 .blog-aside-li2{
+	padding: 0px 0px 5px 0px;
 
 }
 
@@ -779,22 +792,29 @@
 	text-decoration: none;
 	color: black;
 	font-size: 18px;
-	/*margin: 0px 0px 0px 40px;*/
-	/*padding: 0px 0px 0px 40px;*/
-	list-style-type: none;
+    font-family: Times New Roman, serif;
+
+}
+
+.blog-aside-ul2 .blog-aside-li2 .blog-aside-anch2:hover{
+	font-size: 20px;
+	border-bottom: 2px solid black;
 }
 
 
 /*Categories*/
 .blog-aside-htwo3{
-
+	font-family: Lucida, sans-serif;
+	padding: 15px 0px 15px 0px;
 }
 
 .blog-aside-ul3{
-
+	border-bottom: 2px solid black;
+	padding: 0px 30px 10px 15px;
 }
 
 .blog-aside-ul3 .blog-aside-li3{
+	padding: 0px 0px 5px 0px;
 
 }
 
@@ -802,51 +822,121 @@
 	text-decoration: none;
 	color: black;
 	font-size: 18px;
-	/*margin: 0px 0px 0px 10px;
-*/}
+	font-family: Times New Roman, serif;
+}
 
+.blog-aside-ul3 .blog-aside-li3 .blog-aside-anch3:hover{
+	font-size: 20px;
+	border-bottom: 2px solid black;
+}
+
+/*Recents*/
+.blog-aside-htwo4{
+	font-family: Lucida, sans-serif;
+	padding: 15px 0px 15px 0px;
+}
+
+.blog-aside-ul4{
+	border-bottom: 2px solid black;
+	padding: 0px 30px 10px 15px;
+}
+
+.blog-aside-ul4 .blog-aside-li4{
+	padding: 0px 0px 5px 0px;
+
+}
+
+.blog-aside-ul4 .blog-aside-li4 .blog-aside-anch4{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	font-family: Times New Roman, serif;
+}
+
+.blog-aside-ul4 .blog-aside-li4 .blog-aside-anch4:hover{
+	font-size: 20px;
+	border-bottom: 2px solid black;
+}
 
 /*Css of body(webpages explanation) starts from here*/
 .blog-only-div{
 	padding: 20px 30px 20px 30px;
-	background-color: orange;
+	background-color: #3f3f45;
 }
 
 
 /*Know About Me*/
 .blog-mid-hpar1{
-
+	padding: 30px 0px 140px 0px;
+	position: relative;
+	left: 7%;
 }
 
 .blog-mid-htwo1{
-
+	color: whitesmoke;
+	font-family: Lucida, sans-serif;
+	padding: 0px 0px 8px 0px;
 }
 
 .blog-mid-p1{
+	color: whitesmoke;
 	width: 70%;
 	text-align: justify;
 	font-size: 20px;
+	font-family: Florence, cursive;
+	animation-name: blog-par-ani;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+	animation-delay: 0.1s;
+}
+
+@keyframes blog-par-ani{
+	from{font-size: 20px;}
+	to{font-size: 27px;}
 }
 
 
 /*Heading of webpages(blogs)*/
 .blog-asign-h1{
+	font-family: Lucida, sans-serif;
 	text-align: center;
+	padding: 0px 0px 40px 0px;
+	text-decoration: underline;
+	color: whitesmoke;
+	animation-name: header-ani;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+	animation-delay: 0.1s;
 }
 
+@keyframes header-ani{
+	from{font-size: 24px;}
+	to{font-size: 80px;}
+	from{color: whitesmoke;}
+	to{color: darkblue}
+}
 
-/*Div of first and second assignment*/
+/*Div of all three webpage*/
+.blog-all-three{
+	padding: 30px 0px 30px 0px;
+	border: 8px solid whitesmoke;
+}
+
+/*Div of first and second webpage*/
 .blog-fst-scd{
 	display: inline-flex;
+	padding: 0px 0px 60px 0px;
+	position: relative;
+	left: 7%;
 }
 
 
-/*First assignment*/
-.blog-mid-hpar2{
-
-}
+/*First webpage*/
 
 .blog-mid-htwo2{
+	padding: 0px 0px 8px 0px;
+	font-family: Lucida, sans-serif;
+	color: whitesmoke;
 
 }
 
@@ -854,15 +944,17 @@
 	width: 70%;
  	text-align: justify;
 	font-size: 20px;
+	font-family: Florence, cursive;
+	color: whitesmoke;
 }
 
 
-/*Second Assignment*/
-.blog-mid-hpar3{
-
-}
+/*Second webpage*/
 
 .blog-mid-htwo3{
+	font-family: Lucida, sans-serif;
+	padding: 0px 0px 8px 0px;
+	color: whitesmoke;
 
 }
 
@@ -870,19 +962,68 @@
 	width: 70%;
  	text-align: justify;
 	font-size: 20px;
+	font-family: Florence, cursive;
+	color: whitesmoke;
 }
 
-/*Third Assignment*/
+/*Third webpage*/
 .blog-mid-hpar4{
-
+	position: relative;
+	left: 7%;
 }
 
 .blog-mid-htwo4{
-
+	font-family: Lucida, sans-serif;
+	padding: 0px 0px 8px 0px; 
+	color: whitesmoke;
 }
 
 .blog-mid-p4{
-	width: 70%;
+	width: 80%;
  	text-align: justify;
 	font-size: 20px;
+	font-family: Florence, cursive;
+	color: whitesmoke;
+}
+
+
+/*Footer nav bar css*/
+#blog-foot{
+	background-color: #0d4789f0;
+	padding: 40px 30px 60px 40px;
+}
+
+.blog-nav2 .blog-ul2 .blog-li2{
+	display: inline-flex;
+
+}
+
+.blog-ul2 .blog-li2 .blog-anch2{
+	text-decoration: none;
+	margin: 0px 20px 0px 20px;
+	font-size: 20px;
+    /*color: black;*/
+    color: whitesmoke;
+    position: relative;
+    bottom: 4px;
+    font-family: Courier, monospace;
+    font-weight: bold;
+    transition-delay: 0.2;
+    transition-timing-function: ease-in-out;
+ }
+
+ .blog-ul2 .blog-li2 .blog-anch2:hover{
+ 	border-bottom: 5px solid black;
+ 	font-size: 22px;
+ }
+
+.blog-footp{
+	font-size: 20px;
+   position: relative;
+   bottom: 15px;
+   font-weight: bold;
+   left: 20px;
+   font-family: sans-serif;
+   text-decoration: underline;
+   color: whitesmoke; 
 }
