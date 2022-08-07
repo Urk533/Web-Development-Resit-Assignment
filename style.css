@@ -1210,3 +1210,478 @@
 		padding: 20px 10px 20px 20px; 
 	} 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Css for Site-report.html starts from here*/
+#site-body{
+
+}
+
+#site-head{
+	background-color: skyblue;
+	text-align: center;
+	padding: 30px 30px 50px 30px;
+}
+
+.site-nav1{
+
+	
+}
+
+.site-ul1{
+
+}
+
+.site-nav1 .site-ul1 .site-li1{
+	display: inline-flex;
+   /*padding: 30px 0px 0px 0px;*/
+}
+
+.site-ul1 .site-li1 .site-anch1{
+	text-decoration: none;
+	font-size: 22px;
+	border: 1px solid black;
+   margin: 0px 10px 0px 10px;
+   padding: 10px 10px 10px 10px;
+   color: black;
+}
+
+
+/*Module experience Css*/
+.site-div1{
+	padding: 70px 0px 40px 0px;
+}
+
+.site-hone1{
+   text-align: center;
+   padding: 0px 0px 20px 0px;
+   font-family: "Courier New", monospace;
+   font-weight: bolder;
+   text-decoration: underline;
+   font-size: 30px;
+}
+
+.site-par1{
+	width: 80%;
+	position: relative;
+	left: 10%;
+   text-align: justify;
+   font-size: 20px;
+	line-height: 23px;
+	font-family: "Helvetica", sans-serif;
+}
+
+/*Web page Development Method*/
+.site-div2{
+	padding: 0px 0px 40px 0px;
+}
+
+.site-hone2{
+	text-align: center;
+	padding: 0px 0px 20px 0px;
+	font-family: "Courier New", monospace;
+   font-weight: bolder;
+   text-decoration: underline;
+   font-size: 30px;
+}
+
+.site-par2{
+	width: 80%;
+	position: relative;
+	left: 10%;
+	text-align: justify;
+	padding: 0px 0px 20px 0px;
+	font-size: 20px;
+	line-height: 23px;
+	font-family: "Helvetica", sans-serif;
+}
+
+.site-ol1{
+	/*padding: 0px 0px 0px 165px;*/
+	position: relative;
+	left: 11%;
+}
+
+.site-li2{
+	font-size: 20px;
+	line-height: 23px;
+	font-family: "Helvetica", sans-serif;
+}
+
+/*Home page Css*/
+.site-div-hp{
+	padding: 0px 0px 40px 40px;
+}
+
+.site-hp{
+	padding: 0px 0px 20px 0px;
+}
+
+.site-hp-htwo1{
+	padding: 0px 0px 20px 0px;
+	font-family: "Courier New", monospace;
+   font-weight: bolder;
+   font-size: 25px;
+}
+
+.site-hp-par1{
+	width: 60%;
+   font-size: 20px;
+	line-height: 23px;
+	font-family: "Helvetica", sans-serif; 
+}
+
+/*Image Headings of homepage*/
+.hp-hthree1{
+	padding: 0px 0px 5px 0px;
+	font-family: "Florence", cursive;
+}
+
+/*Home page Images*/
+.hp-img1{
+
+}
+
+.home-one{
+
+}
+
+.home-two{
+
+}
+
+.hp-img2{
+
+}
+
+.home-three{
+
+}
+
+.home-four{
+
+}
+
+.hp-img3{
+
+}
+
+.home-five{
+
+}
+
+.home-six{
+
+}
+
+.hp-img4{
+	padding: 0px 0px 40px 0px;
+}
+
+.home-seven{
+
+}
+
+
+/*Home page validation heading*/
+.hp-hthree2{
+	padding: 0px 0px 0px 0px;
+	font-family: "Florence", cursive;
+}
+
+.hp-vali{
+
+}
+
+.home-vali{
+
+}
+
+
+
+/*Portfolio Page Css*/
+.site-div-pp{
+	padding: 0px 0px 40px 40px;
+}
+
+.site-pp{
+	padding: 0px 0px 20px 0px;
+}
+
+.site-pp-htwo1{
+	padding: 0px 0px 20px 0px;
+	font-family: "Courier New", monospace;
+   font-weight: bolder;
+   font-size: 25px;
+}
+
+.site-pp-par1{
+	width: 60%;
+	font-size: 20px;
+	line-height: 23px;
+	font-family: "Helvetica", sans-serif;
+}
+
+
+/*Image Headings of portfolio page*/
+.pp-hthree1{
+	padding: 0px 0px 5px 0px;
+	font-family: "Florence", cursive;
+}
+
+/*Images of portfolio page*/
+.pp-img1{
+
+}
+
+.portfolio-one{
+
+}
+
+.portfolio-two{
+
+}
+
+.pp-img2{
+
+}
+
+.portfolio-three{
+
+}
+
+.portfolio-four{
+
+}
+
+.pp-img3{
+	padding: 0px 0px 40px 0px;
+}
+
+.portfolio-five{
+
+}
+
+.portfolio-six{
+
+}
+
+/*Heading of portfolio page validator*/
+.pp-hthree2{
+	padding: 0px 0px 0px 0px;
+	font-family: "Florence", cursive;
+}
+
+.pp-vali{
+
+}
+
+.portfolio-vali{
+
+}
+
+
+
+/*Contact Page Css*/
+.site-div-cp{
+	padding: 0px 0px 40px 40px;
+}
+
+.site-cp{
+	padding: 0px 0px 20px 0px;
+}
+
+.site-cp-htwo1{
+	padding: 0px 0px 20px 0px;
+	font-family: "Courier New", monospace;
+   font-weight: bolder;
+   font-size: 25px;
+}
+
+.site-cp-par1{
+	width: 60%;
+	font-size: 20px;
+	line-height: 23px;
+	font-family: "Helvetica", sans-serif;
+}
+
+/*Heading of contact page images*/
+.cp-hthree1{
+	padding: 0px 0px 5px 0px;
+	font-family: "Florence", cursive;
+}
+
+.cp-img1{
+
+}
+
+.contact-one{
+
+}
+
+.contact-two{
+
+}
+
+.cp-img2{
+
+}
+
+.contact-three{
+
+}
+
+.contact-four{
+
+}
+
+.cp-img3{
+
+}
+
+.contact-five{
+
+}
+
+.contact-six{
+
+}
+
+.cp-img4{
+
+}
+
+.contact-seven{
+
+}
+
+.contact-eight{
+
+}
+
+.cp-img5{
+	padding: 0px 0px 40px 0px;
+}
+
+.contact-nine{
+
+}
+
+/*Heading of contact page validator*/
+.cp-hthree2{
+	padding: 0px 0px 0px 0px;
+	font-family: "Florence", cursive;
+}
+
+.cp-vali{
+
+}
+
+.contact-vali{
+
+}
+
+
+
+/*Blog page Css*/
+.site-div-bp{
+	padding: 0px 0px 40px 40px;
+}
+
+.site-bp{
+	padding: 0px 0px 20px 0px;
+}
+
+.site-bp-htwo1{
+	padding: 0px 0px 20px 0px;
+	font-family: "Courier New", monospace;
+   font-weight: bolder;
+   font-size: 25px;
+}
+
+.site-bp-par1{
+	width: 60%;
+	font-size: 20px;
+	line-height: 23px;
+	font-family: "Helvetica", sans-serif;
+}
+
+/*Heading of blog page images*/
+.bp-hthree1{
+	padding: 0px 0px 5px 0px;
+	font-family: "Florence", cursive;
+}
+
+.bp-img1{
+
+}
+
+.blog-one{
+
+}
+
+.blog-two{
+
+}
+
+.bp-img2{
+
+}
+
+.blog-three{
+
+}
+
+.blog-four{
+
+}
+
+.bp-img3{
+
+}
+
+.blog-five{
+
+}
+
+.blog-six{
+
+}
+
+.bp-img4{
+	padding: 0px 0px 40px 0px;
+}
+
+.blog-seven{
+
+}
+
+.blog-eight{
+
+}
+
+/*Heading of blog page validator*/
+.bp-hthree2{
+	padding: 0px 0px 0px 0px;
+	font-family: "Florence", cursive;
+}
+
+.bp-vali{
+
+}
+
+.blog-vali{
+
+}
