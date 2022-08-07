@@ -1,6 +1,6 @@
 /*Giving css properties which will affect the over all content*/
 *{
-	margin: 0px 0px 0px 0px;
+	margin: 0px;
 	padding: 0px;
 	
 }
@@ -42,11 +42,13 @@
 
 }
 
+/*Adding hover in the navigation menus of side bar*/
 .index-nav1 .index-ul1 .top-nav .link-my:hover{
 	color: whitesmoke;
     background-color: #0a0678;
 }
 
+/*This is the container of main body part*/
 .index-div1{
 	background-color: #d6e2de;
 	padding: 300px 300px 10px 300px;
@@ -55,6 +57,7 @@
 	margin: 100px 0px -1000px 270px;
 }
 
+/*This is the property for heading*/
 .index-hone{
 	color: #0a0678;
 	position: relative;
@@ -68,6 +71,7 @@
     animation-timing-function: ease-in-out;
 }
 
+/*This is the animation for heading*/
 @keyframes welcome{
 	from{color: floralwhite;}
 	to{color: #0a0678;}
@@ -75,6 +79,7 @@
 	to{font-size: 130px;}
 }
 
+/*This is the properties of paragraph in main body part*/
 .index-para1{
 	font-size: 30px;
 	position: relative;
@@ -88,11 +93,13 @@
     animation-timing-function: ease-in-out;
 }  
 
+/*Animation of paragraph*/
 @keyframes in-para1{
 	from{font-size: 30px;}
 	to{font-size: 50px;}
 }
 
+/*Css property of heading of paragraph*/
 .index-label1{
 	font-size: 40px;
 	position: relative;
@@ -102,6 +109,7 @@
 	color: #434343;
 }
 
+/*Css property of paragraph*/
 .index-para2{
 	font-size: 25px;
 	position: relative;
@@ -116,6 +124,7 @@
 	box-shadow: 12px 12px #aaaab0;
 }
 
+/*CSS property of navigation menus at bottom*/
 .index-nav3 .index-link1{
 	border: 1px solid black;
 	background-color: #0a0678;
@@ -132,11 +141,13 @@
 	transition-timing-function: ease-out;
 }
 
+/*Using hover in the navigation menu of central body part*/
 .index-nav3 .index-link1:hover{
 	background-color: white;
 	color: #0a0678;
 }
 
+/*Css property of footer*/
 #index-footer{
 	background-color: #434343;
 	padding: 60px 60px 60px 60px;
@@ -146,6 +157,7 @@
 
 }
 
+/*CSS property of navigation menu of the bottom*/
 .index-nav2 .index-ul2 .down-nav{
 	float: right;
 	list-style-type: none;
@@ -157,6 +169,7 @@
 	
 }
 
+/*CSS property of navigation menus at bottom*/
 .index-nav2 .index-ul2 .down-nav .link-page{
 	border: 1px black solid;
 	background-color: whitesmoke;
@@ -168,11 +181,13 @@
 	transition-timing-function: ease-out;
 }
 
+/*Using hover in the navigation menu of bottom part*/
 .index-nav2 .index-ul2 .down-nav .link-page:hover{
 	color: white;
 	background-color: #0a0678;
 }
 
+/*CSS property of navigation menus at bottom*/
 .index-label2{
 	color: whitesmoke;
 	float: right;
@@ -228,6 +243,8 @@
 
 
 /*CSS for portfolio.html*/
+
+/*CSS for body part of portfolio.html in which background image is given*/
 #port-body{
 	background-image: url("https://www.bcm-institute.org/thank-you-landing-page/pngtree-white-background-cartoon-hora-blue-watercolor-background-image_653820/");
 	/*
@@ -239,6 +256,7 @@
 	overflow-x: hidden;
 }
 
+/*CSS for the navigation of the header of portfolio.html*/
 .port-ul1 .port-li1{
 	display: inline-block;
 	position: relative;
@@ -246,6 +264,7 @@
     margin: 20px 5px 0px 5px;
 }
 
+/*CSS for the navigation of the header of portfolio.html*/
 .port-ul1 .port-li1 .port-anch{
 	color: black;
 	text-decoration: none;
@@ -257,6 +276,7 @@
 	transition-delay: 0.1s;
 }
 
+/*Using hover in the navigation bar of the header of portfolio.html*/
 .port-ul1 .port-li1 .port-anch:hover{
 	background-color: #4cedd4;
 	color: white;
@@ -268,12 +288,14 @@
 	margin-top: 20px;
 }
 
+/*CSS for the central body part of portfolio.html starts from here*/
 .port-div-hp{
    margin-left: 30px;
    position: relative;
    left: 230px;
 }
 
+/*CSS of the heading for the central body part of portfolio.html*/
 .port-hone1{
 	color: #392df9;
 	font-size: 80px;
@@ -284,6 +306,7 @@
 	animation-delay: 0.01s;
 }
 
+/*Using  animation in the heading)*/
 @keyframes portani-1{
 	from{color: skyblue;}
 	to{color: #392df9;}
@@ -298,6 +321,7 @@
 	width: 45%;
 } 
 
+/*Css for my image*/
 .port-img1{
 	position: relative;
 	right: 300px;
@@ -497,20 +521,24 @@
 
 /*CSS for contact.html*/
 
+/*Header part css of contact page*/
 #con-header{
 	background-color: #65b9db;
 	padding: 40px;
 
 }
 
+/*Css property for navigation menus of the header*/
 .con-nav1{
 	text-align: center;
 }
 
+/*Css property for navigation menus of the header*/
 .con-nav1 .con-ul1 .con-li1{
 	display: inline-flex;
 }
 
+/*Css property for navigation menus of the header*/
 .con-ul1 .con-li1 .con-anch1{
 	text-decoration: none;
 	color: black;
@@ -524,11 +552,13 @@
     transition-timing-function: ease-in;
 }
 
+/*Css property for using hover in navigation menus of the header*/
 .con-ul1 .con-li1 .con-anch1:hover{
 	background-color: #65b9db;
 	color: white;
 }
 
+/*Css property of central body part starts from here*/
 .con-mid{
 	background-color: #eceff0;
 }
@@ -553,11 +583,13 @@
 	animation-delay: 0.1s;
 }
 
+/*Animation of the heading of the central body part*/
 @keyframes contact-anim{
 	from{font-size: 10px;}
 	to{font-size: 60px;}
 }
 
+/*Css property of paragraph of central body part*/
 .con-para1{
 	font-size: 20px;
 	margin: 5px 0px 0px 0px;
@@ -578,6 +610,7 @@
 	margin: 90px 0px 70px 0px;
 }
 
+/*Css for form of central body part of contact.html starts from here*/
 .con-div-form1{
 	position: relative;
 	left: 73%;
@@ -631,7 +664,7 @@
 	background-color: #e1d9d9;
 }
 
-
+/*Css for my information of central body part of contact.html starts from here*/
 .con-div-info1{
 	position: relative;
 	left: 37%;
@@ -698,12 +731,14 @@
     height: 80px;
 }
 
+/*Css of navigation menus at the bottom of the page*/
 .con-nav2 .con-ul2 .con-li2{
 	display: inline-flex;
 	float: right;
     margin-right: 5px;
 }
 
+/*Css of navigation menus at the bottom of the page*/
 .con-ul2 .con-li2 .con-anch2{
 	text-decoration: none;
 	color: black;
@@ -718,10 +753,12 @@
     transition-timing-function: ease-in;
 }
 
+/*Hover effect at the navigation menus at the bottom of the container*/
 .con-ul2 .con-li2 .con-anch2:hover{
 	background-color: white;
 }
 
+/*Paragraph of foot*/
 .con-foot-par{
 	float: right;
 	font-size: 18px;
@@ -732,6 +769,7 @@
 	font-family: Helvetica, sans-serif;
 }
 
+/*Using media query for making contact.html responsive*/
 @media only screen and (max-width:600px){
 	#con-header{
 	padding: 20px;
@@ -804,20 +842,25 @@
 
 
 /*Css for blog.html form here*/
+
+/*Css for body part of blogging type page*/
 #blog-body{
 	overflow-x: hidden;
 }
 
+/*Css for heading part of blogging type page*/
 #blog-head{
 	padding: 70px;
 	background-color: #0d4789f0;
 }
 
+/*Css for navigation bar of heading part of blogging type page*/
 .blog-nav1 .blog-ul1 .blog-li1{
 	display: inline-flex;
 	float: right;
 }
 
+/*Css for navigation bar of heading part of blogging type page*/
 .blog-ul1 .blog-li1 .blog-anch1{
 	text-decoration: none;
 	color: black;
@@ -833,6 +876,7 @@
     transition-timing-function: ease-out;
 }
 
+/*Css for hover effect of navigation bar of heading part of blogging type page*/
 .blog-ul1 .blog-li1 .blog-anch1:hover{
 	background-color: #3f3f45;
 	color: whitesmoke;
@@ -853,7 +897,7 @@
 }
 
 
-/*Check Top Blogs*/
+/*Check Top Blogs Css propety starts from here*/
 
 .blog-aside-htwo1{
 	font-family: "Lucida", sans-serif;
@@ -882,7 +926,7 @@
 }
 
 
-/*Archives*/
+/*Archives part css property starts from here*/
 .blog-aside-htwo2{
 	font-family: "Lucida", sans-serif;
 	padding: 15px 0px 15px 0px;
@@ -912,7 +956,7 @@
 }
 
 
-/*Categories*/
+/*Categories css property of blog.html*/
 .blog-aside-htwo3{
 	font-family: "Lucida", sans-serif;
 	padding: 15px 0px 15px 0px;
@@ -940,7 +984,7 @@
 	border-bottom: 2px solid black;
 }
 
-/*Recents*/
+/*Recents css property for blogging page*/
 .blog-aside-htwo4{
 	font-family: "Lucida", sans-serif;
 	padding: 15px 0px 15px 0px;
@@ -975,7 +1019,7 @@
 }
 
 
-/*Know About Me*/
+/*Know About Me css property is here*/
 .blog-mid-hpar1{
 	padding: 30px 0px 140px 0px;
 	position: relative;
@@ -1000,6 +1044,7 @@
 	animation-delay: 0.1s;
 }
 
+/*Animation of paragraph of central body part*/
 @keyframes blog-par-ani{
 	from{font-size: 20px;}
 	to{font-size: 27px;}
@@ -1019,6 +1064,7 @@
 	animation-delay: 0.1s;
 }
 
+/*Animation of heading of central body part*/
 @keyframes header-ani{
 	from{font-size: 24px;}
 	to{font-size: 80px;}
@@ -1026,13 +1072,13 @@
 	to{color: darkblue}
 }
 
-/*Div of all three webpage*/
+/*Css of div of all three webpage*/
 .blog-all-three{
 	padding: 30px 0px 30px 0px;
 	border: 8px solid whitesmoke;
 }
 
-/*Div of first and second webpage*/
+/*Css of div of first and second webpage*/
 .blog-fst-scd{
 	display: inline-flex;
 	padding: 0px 0px 60px 0px;
@@ -1043,6 +1089,7 @@
 
 /*First webpage*/
 
+/*First webpage heading css property*/
 .blog-mid-htwo2{
 	padding: 0px 0px 8px 0px;
 	font-family: "Lucida", sans-serif;
@@ -1050,6 +1097,7 @@
 
 }
 
+/*First webpage paragraph css property*/
 .blog-mid-p2{
 	width: 70%;
  	text-align: justify;
@@ -1061,6 +1109,7 @@
 
 /*Second webpage*/
 
+/*Second webpage heading css property*/
 .blog-mid-htwo3{
 	font-family: "Lucida", sans-serif;
 	padding: 0px 0px 8px 0px;
@@ -1068,6 +1117,7 @@
 
 }
 
+/*Second webpage paragraph css property*/
 .blog-mid-p3{
 	width: 70%;
  	text-align: justify;
@@ -1077,17 +1127,21 @@
 }
 
 /*Third webpage*/
+
+/*Third webpage paragraph css property*/
 .blog-mid-hpar4{
 	position: relative;
 	left: 7%;
 }
 
+/*Third webpage heading css property*/
 .blog-mid-htwo4{
 	font-family: "Lucida", sans-serif;
 	padding: 0px 0px 8px 0px; 
 	color: whitesmoke;
 }
 
+/*Third webpage paragraph two css property*/
 .blog-mid-p4{
 	width: 80%;
  	text-align: justify;
@@ -1097,17 +1151,19 @@
 }
 
 
-/*Footer nav bar css*/
+/*Footer nav bar css property*/
 #blog-foot{
 	background-color: #0d4789f0;
 	padding: 40px 30px 40px 40px;
 }
 
+/*Footer nav bar css property*/
 .blog-nav2 .blog-ul2 .blog-li2{
 	display: inline-flex;
 
 }
 
+/*Footer nav bar css property*/
 .blog-ul2 .blog-li2 .blog-anch2{
 	text-decoration: none;
 	margin: 0px 20px 0px 20px;
@@ -1122,11 +1178,13 @@
     transition-timing-function: ease-in-out;
  }
 
+/*Footer nav bar css property*/
  .blog-ul2 .blog-li2 .blog-anch2:hover{
  	border-bottom: 5px solid black;
  	font-size: 22px;
  }
 
+/*Footer nav bar paragraph css property*/
 .blog-footp{
 	font-size: 20px;
    position: relative;
@@ -1224,22 +1282,26 @@
 
 
 /*Css for Site-report.html starts from here*/
+
+/*Css part of body of reporting page*/
 #site-body{
 	background-color: #67ffbe;
 	overflow-x: hidden;
 }
 
+/*Css heading part of body of reporting page*/
 #site-head{
 	background-color: #fffc46;
 	text-align: center;
 	padding: 30px 30px 50px 30px;
 }
 
+/*Css navigation part of body of reporting page*/
 .site-nav1 .site-ul1 .site-li1{
 	display: inline-flex;
-   /*padding: 30px 0px 0px 0px;*/
 }
 
+/*Css navigation part of body of reporting page*/
 .site-ul1 .site-li1 .site-anch1{
 	text-decoration: none;
 	font-size: 22px;
@@ -1251,6 +1313,7 @@
    transition-delay: 0.2s;
 }
 
+/*Css part for applying hover effect in navigation part of body of reporting page*/
 .site-ul1 .site-li1 .site-anch1:hover{
 	background-color: whitesmoke;
 	font-size: 24px;
@@ -1258,7 +1321,7 @@
 }
 
 
-/*Module experience Css*/
+/*Module experience Css property is illustrate from here*/
 .site-div1{
 	padding: 90px 0px 70px 0px;
 }
@@ -1276,6 +1339,7 @@
 
 }
 
+/*Animation of above heading*/
 @keyframes siteh1-animate{
 	from{font-size: 30px;}
 	to{font-size: 80px;}
@@ -1566,6 +1630,7 @@
 	padding: 0px 0px 20px 0px;
 }
 
+/*Blog page css property heading one*/
 .site-bp-htwo1{
 	padding: 0px 0px 20px 0px;
 	font-family: "Courier New", monospace;
@@ -1573,6 +1638,7 @@
    font-size: 25px;
 }
 
+/*Blog  page css property of paragrpah one*/
 .site-bp-par1{
 	width: 60%;
 	font-size: 20px;
@@ -1646,7 +1712,7 @@
 	padding: 0px 0px 20px 0px;
 }
 
-/*CSS for References*/
+/*CSS property for References*/
 .site-references{
 	padding: 0px 0px 90px 40px;
 }
