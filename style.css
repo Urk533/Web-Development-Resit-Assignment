@@ -229,10 +229,9 @@
 
 /*CSS for portfolio.html*/
 #port-body{
-	background-image: url("https://www.bcm-institute.org/wp-content/uploads/2021/09/pngtree-white-background-cartoon-hora-blue-watercolor-background-image_653820.jpg");
-	/*Citation Here
-    pngtree-white-background-cartoon-hora-blue-watercolor-background-image_653820(BCM Institute, 2019)
-    Accesed-2022-08-03
+	background-image: url("https://www.bcm-institute.org/thank-you-landing-page/pngtree-white-background-cartoon-hora-blue-watercolor-background-image_653820/");
+	/*
+    (Heng, 2019)
 	*/
 	height: 100vh;
 	background-size: cover;
@@ -1226,22 +1225,14 @@
 
 /*Css for Site-report.html starts from here*/
 #site-body{
-
+	background-color: #67ffbe;
+	overflow-x: hidden;
 }
 
 #site-head{
-	background-color: skyblue;
+	background-color: #fffc46;
 	text-align: center;
 	padding: 30px 30px 50px 30px;
-}
-
-.site-nav1{
-
-	
-}
-
-.site-ul1{
-
 }
 
 .site-nav1 .site-ul1 .site-li1{
@@ -1256,12 +1247,20 @@
    margin: 0px 10px 0px 10px;
    padding: 10px 10px 10px 10px;
    color: black;
+   transition-timing-function: ease-in;
+   transition-delay: 0.2s;
+}
+
+.site-ul1 .site-li1 .site-anch1:hover{
+	background-color: whitesmoke;
+	font-size: 24px;
+
 }
 
 
 /*Module experience Css*/
 .site-div1{
-	padding: 70px 0px 40px 0px;
+	padding: 90px 0px 70px 0px;
 }
 
 .site-hone1{
@@ -1271,6 +1270,17 @@
    font-weight: bolder;
    text-decoration: underline;
    font-size: 30px;
+   animation-name: siteh1-animate;
+   animation-duration: 1s;
+   animation-timing-function: ease-in-out;
+
+}
+
+@keyframes siteh1-animate{
+	from{font-size: 30px;}
+	to{font-size: 80px;}
+	to{color: darkblue;}
+	from{color: black}
 }
 
 .site-par1{
@@ -1285,7 +1295,7 @@
 
 /*Web page Development Method*/
 .site-div2{
-	padding: 0px 0px 40px 0px;
+	padding: 0px 0px 70px 0px;
 }
 
 .site-hone2{
@@ -1322,7 +1332,7 @@
 
 /*Home page Css*/
 .site-div-hp{
-	padding: 0px 0px 40px 40px;
+	padding: 0px 0px 70px 40px;
 }
 
 .site-hp{
@@ -1341,6 +1351,7 @@
    font-size: 20px;
 	line-height: 23px;
 	font-family: "Helvetica", sans-serif; 
+	text-align: justify;
 }
 
 /*Image Headings of homepage*/
@@ -1351,47 +1362,36 @@
 
 /*Home page Images*/
 .hp-img1{
-
-}
-
-.home-one{
-
+	display: inline-flex;
+	padding: 0px 0px 80px 0px;
 }
 
 .home-two{
-
+	padding: 0px 0px 0px 140px;
 }
 
 .hp-img2{
-
+	display: inline-flex;
+	padding: 0px 0px 80px 0px;
 }
 
-.home-three{
-
-}
 
 .home-four{
-
+	padding: 0px 0px 0px 140px;
 }
 
 .hp-img3{
-
+	display: inline-flex;
+	padding: 0px 0px 80px 0px;
 }
 
-.home-five{
-
-}
 
 .home-six{
-
+	padding: 0px 0px 0px 140px;
 }
 
 .hp-img4{
 	padding: 0px 0px 40px 0px;
-}
-
-.home-seven{
-
 }
 
 
@@ -1401,19 +1401,11 @@
 	font-family: "Florence", cursive;
 }
 
-.hp-vali{
-
-}
-
-.home-vali{
-
-}
-
 
 
 /*Portfolio Page Css*/
 .site-div-pp{
-	padding: 0px 0px 40px 40px;
+	padding: 0px 0px 70px 40px;
 }
 
 .site-pp{
@@ -1432,6 +1424,7 @@
 	font-size: 20px;
 	line-height: 23px;
 	font-family: "Helvetica", sans-serif;
+	text-align: justify;
 }
 
 
@@ -1443,60 +1436,46 @@
 
 /*Images of portfolio page*/
 .pp-img1{
-
+	display: inline-flex;
+	padding: 0px 0px 80px 0px;
 }
 
-.portfolio-one{
-
-}
 
 .portfolio-two{
-
+	padding: 0px 0px 0px 140px;
 }
 
 .pp-img2{
-
+	display: inline-flex;
+	padding: 0px 0px 80px 0px;
 }
 
-.portfolio-three{
-
-}
 
 .portfolio-four{
-
+	padding: 0px 0px 0px 140px;
 }
 
 .pp-img3{
+	display: inline-flex;
 	padding: 0px 0px 40px 0px;
 }
 
-.portfolio-five{
-
-}
 
 .portfolio-six{
-
+	padding: 0px 0px 0px 140px;
 }
 
 /*Heading of portfolio page validator*/
 .pp-hthree2{
-	padding: 0px 0px 0px 0px;
+	padding: 0px 0px 5px 0px;
 	font-family: "Florence", cursive;
-}
-
-.pp-vali{
-
-}
-
-.portfolio-vali{
-
 }
 
 
 
 /*Contact Page Css*/
 .site-div-cp{
-	padding: 0px 0px 40px 40px;
+	padding: 0px 0px 70px 40px;
 }
 
 .site-cp{
@@ -1515,6 +1494,7 @@
 	font-size: 20px;
 	line-height: 23px;
 	font-family: "Helvetica", sans-serif;
+	text-align: justify;
 }
 
 /*Heading of contact page images*/
@@ -1524,80 +1504,62 @@
 }
 
 .cp-img1{
-
+	display: inline-flex;
+	padding: 0px 0px 80px 0px;
 }
 
-.contact-one{
-
-}
 
 .contact-two{
-
+	padding: 0px 0px 0px 140px;
 }
 
 .cp-img2{
-
+	display: inline-flex;
+	padding: 0px 0px 80px 0px;
 }
 
-.contact-three{
-
-}
 
 .contact-four{
-
+	padding: 0px 0px 0px 140px;
 }
 
 .cp-img3{
-
+	display: inline-flex;
+	padding: 0px 0px 80px 0px;
 }
 
-.contact-five{
-
-}
 
 .contact-six{
-
+	padding: 0px 0px 0px 140px;
 }
 
 .cp-img4{
-
+	display: inline-flex;
+	padding: 0px 0px 80px 0px;
 }
 
-.contact-seven{
-
-}
 
 .contact-eight{
-
+	padding: 0px 0px 0px 140px;
 }
 
 .cp-img5{
 	padding: 0px 0px 40px 0px;
 }
 
-.contact-nine{
-
-}
 
 /*Heading of contact page validator*/
 .cp-hthree2{
-	padding: 0px 0px 0px 0px;
+	padding: 0px 0px 5px 0px;
 	font-family: "Florence", cursive;
 }
 
-.cp-vali{
-
-}
-
-.contact-vali{
-
-}
 
 
 
 /*Blog page Css*/
 .site-div-bp{
-	padding: 0px 0px 40px 40px;
+	padding: 0px 0px 100px 40px;
 }
 
 .site-bp{
@@ -1616,6 +1578,7 @@
 	font-size: 20px;
 	line-height: 23px;
 	font-family: "Helvetica", sans-serif;
+	text-align: justify;
 }
 
 /*Heading of blog page images*/
@@ -1625,63 +1588,122 @@
 }
 
 .bp-img1{
-
-}
-
-.blog-one{
-
+	display: inline-flex;
+	padding: 0px 0px 80px 0px;
 }
 
 .blog-two{
-
+	padding: 0px 0px 0px 140px;
 }
 
 .bp-img2{
-
+	display: inline-flex;
+	padding: 0px 0px 80px 0px;
 }
 
-.blog-three{
-
-}
 
 .blog-four{
-
+	padding: 0px 0px 0px 140px;
 }
 
 .bp-img3{
-
+	display: inline-flex;
+	padding: 0px 0px 80px 0px;
 }
 
-.blog-five{
-
-}
 
 .blog-six{
-
+	padding: 0px 0px 0px 140px;
 }
 
 .bp-img4{
+	display: inline-flex;
 	padding: 0px 0px 40px 0px;
 }
 
-.blog-seven{
-
-}
 
 .blog-eight{
-
+	padding: 0px 0px 0px 140px;
 }
 
 /*Heading of blog page validator*/
 .bp-hthree2{
-	padding: 0px 0px 0px 0px;
+	padding: 0px 0px 5px 0px;
 	font-family: "Florence", cursive;
 }
 
-.bp-vali{
+
+/*Images of CSS validation*/
+.all-vali{
+	padding: 0px 0px 100px 40px;
+	text-align: center;
+}
+
+.all-hthree1{
+	font-family: "Courier New", monospace;
+   font-weight: bolder;
+   font-size: 25px;
+	padding: 0px 0px 20px 0px;
+}
+
+/*CSS for References*/
+.site-references{
+	padding: 0px 0px 90px 40px;
+}
+
+.ref-htwo{
+	padding: 0px 0px 20px 0px;
+	font-family: "Courier New", monospace;
+	text-decoration: underline;
+	font-weight: bolder;
+	font-size: 26px;
 
 }
 
-.blog-vali{
-
+.ref-hthree{
+	padding: 0px 0px 5px 0px;
+	font-family: "Florence", cursive;
+	font-size: 22px;
 }
+
+.ref-par{
+	font-size: 18px;
+	font-family: "Helvetica", sans-serif;
+	text-align: justify;
+	width: 90%;
+}
+
+
+
+/*Using Media Query in site-report page for making responsive*/
+@media only screen and(max-width:600px){
+	.site-par1{
+		width: 45%;
+	}
+
+	.site-par2{
+		width: 45%;
+	}
+
+	.site-hp-par1{
+		width: 25%;
+	}
+
+	.site-pp-par1{
+		width: 25%;
+	}
+
+	.site-cp-par1{
+		width: 25%;
+	}
+
+	.site-bp-par1{
+		width: 25%;
+	}
+
+   .ref-par{
+   	width: 25%;
+   }
+}
+
+
